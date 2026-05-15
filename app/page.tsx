@@ -2,6 +2,7 @@
 import FloatingNavbar from "@/components/layout/FloatingNavBar";
 import WelcomePopup from "@/components/layout/WelcomePopup";
 import MapClient from "@/components/map/MapClient";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <FloatingNavbar />
       <MapClient />
       <WelcomePopup />
+      <SpeedInsights />
     </main>
   );
 }
