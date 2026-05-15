@@ -53,14 +53,33 @@ export default function SpotPopup({ spot, onClose }: Props) {
         <div className="mt-4 grid grid-cols-2 gap-2 text-xs">
           <div className="rounded-xl border border-white/10 bg-white/5 p-2">
             <p className="text-white/35">Latitude</p>
-            <p className="mt-1 text-white/75">{spot.lat}</p>
+            <p className="mt-1 text-white/75">{spot.lat.toFixed(4)}</p>
           </div>
 
           <div className="rounded-xl border border-white/10 bg-white/5 p-2">
             <p className="text-white/35">Longitude</p>
-            <p className="mt-1 text-white/75">{spot.lng}</p>
+            <p className="mt-1 text-white/75">{spot.lng.toFixed(4)}</p>
           </div>
         </div>
+
+        {spot.heights && spot.heights.length > 0 && (
+            <div className="mt-4">
+                <p className="text-xs uppercase tracking-[0.2em] text-white/35">
+                Heights
+                </p>
+
+                <div className="mt-2 flex flex-wrap gap-2">
+                {spot.heights.map((height) => (
+                    <span
+                    key={height}
+                    className="rounded-full border border-white/10 bg-white/5 px-2 py-1 text-xs text-white/70"
+                    >
+                    {height}m
+                    </span>
+                ))}
+                </div>
+            </div>
+        )}
 
         {spot.notes && (
           <p className="mt-4 text-sm leading-6 text-white/65">
