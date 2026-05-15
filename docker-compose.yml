@@ -1,0 +1,12 @@
+services:
+  tombstonemap-v2:
+    build: .
+    container_name: tombstonemap-v2
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      NODE_ENV: development
+    command: npm run dev
