@@ -1,5 +1,6 @@
 [![Website][website-shield]][website-url]
 [![Issues][issues-shield]][issues-url]
+![Version](https://img.shields.io/github/package-json/v/dyls-03/tombstonemap-v2?style=for-the-badge)
 
 <!-- TABLE OF CONTENTS -->
 <details>
