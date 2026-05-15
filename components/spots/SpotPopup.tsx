@@ -17,39 +17,53 @@ export default function SpotPopup({ spot, onClose }: Props) {
     <Popup
       longitude={spot.lng}
       latitude={spot.lat}
-      anchor="top"
+      anchor="bottom"
       closeOnClick={false}
       onClose={onClose}
       className="tombstone-popup"
+      offset={18}
     >
-      <div className="w-72 text-white">
-        <p
-          className="text-xs uppercase tracking-[0.25em]"
-          style={{ color: colour }}
-        >
-          {spot.type}
-        </p>
+      <div className="w-72 rounded-2xl border border-white/10 bg-black/90 p-4 text-white shadow-2xl backdrop-blur-xl">
+        <div className="flex items-start justify-between gap-4">
+          <div>
+            <p
+              className="text-xs uppercase tracking-[0.25em]"
+              style={{ color: colour }}
+            >
+              {spot.type}
+            </p>
 
-        <h2 className="mt-2 text-lg font-bold">{spot.name}</h2>
+            <h2 className="mt-2 text-lg font-bold leading-tight">
+              {spot.name}
+            </h2>
 
-        <p className="mt-1 text-sm text-white/55">
-          {spot.region}, {spot.country}
-        </p>
-
-        <div className="mt-4 grid grid-cols-2 gap-2 text-xs text-white/60">
-          <div className="rounded-lg bg-white/5 p-2">
-            <p className="text-white/35">Latitude</p>
-            <p>{spot.lat}</p>
+            <p className="mt-1 text-sm text-white/50">
+              {spot.region}, {spot.country}
+            </p>
           </div>
 
-          <div className="rounded-lg bg-white/5 p-2">
+          <button
+            onClick={onClose}
+            className="rounded-full px-2 text-white/35 hover:bg-white/10 hover:text-white"
+          >
+            ×
+          </button>
+        </div>
+
+        <div className="mt-4 grid grid-cols-2 gap-2 text-xs">
+          <div className="rounded-xl border border-white/10 bg-white/5 p-2">
+            <p className="text-white/35">Latitude</p>
+            <p className="mt-1 text-white/75">{spot.lat}</p>
+          </div>
+
+          <div className="rounded-xl border border-white/10 bg-white/5 p-2">
             <p className="text-white/35">Longitude</p>
-            <p>{spot.lng}</p>
+            <p className="mt-1 text-white/75">{spot.lng}</p>
           </div>
         </div>
 
         {spot.notes && (
-          <p className="mt-4 text-sm leading-6 text-white/70">
+          <p className="mt-4 text-sm leading-6 text-white/65">
             {spot.notes}
           </p>
         )}

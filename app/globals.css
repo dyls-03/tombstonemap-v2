@@ -24,3 +24,18 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.tombstone-popup .mapboxgl-popup-content {
+  background: transparent !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+.tombstone-popup .mapboxgl-popup-tip {
+  border-top-color: rgba(0, 0, 0, 0.9) !important;
+  border-bottom-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.tombstone-popup .mapboxgl-popup-close-button {
+  display: none;
+}
