@@ -5,4 +5,6 @@ export type Spot = {
     type: string;
     lat: number;
     lng: number;
+    notes?: string;
+    tags?: string[];
   };

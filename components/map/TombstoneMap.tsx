@@ -11,6 +11,8 @@ import { useEffect, useRef, useState } from "react";
 import { User } from "lucide-react";
 import { APP_VERSION } from "@/lib/version";
 
+import SpotPopup from "../spots/SpotPopup";
+
 
 export default function TombstoneMap() {
   const typedSpots = spots as Spot[];
@@ -19,10 +21,10 @@ export default function TombstoneMap() {
     lat: number;
     lng: number;
   };
-  /**
-   * Test patch
-   */
+
   const [userLocation, setUserLocation] = useState<UserLocation | null>(null);
+
+  const [selectedSpot, setSelectedSpot] = useState<Spot | null>(null);
   
   const mapRef = useRef<MapRef | null>(null);
 
@@ -106,11 +108,15 @@ export default function TombstoneMap() {
                     />
                 
                     <button
-                    className="relative z-10 h-3.5 w-3.5 rounded-full border border-white/80"
-                    style={{
-                        backgroundColor: colour,
-                        boxShadow: `0 0 18px ${colour}`,
-                    }}
+                      onClick={(event) => {
+                        event.stopPropagation();
+                        setSelectedSpot(spot);
+                      }}
+                      className="relative z-10 h-3.5 w-3.5 rounded-full border border-white/80"
+                      style={{
+                          backgroundColor: colour,
+                          boxShadow: `0 0 18px ${colour}`,
+                      }}
                     />
                 </div>
 
@@ -132,6 +138,12 @@ export default function TombstoneMap() {
             </Marker>
           );
         })}
+        {selectedSpot && (
+          <SpotPopup
+            spot={selectedSpot}
+            onClose={() => setSelectedSpot(null)}
+          />
+        )}
       </Map>
       <div className="pointer-events-none absolute bottom-9 left-3 z-20">
         <div className="rounded-xl border border-white/10 bg-black/40 px-3 py-2 backdrop-blur-md">
