@@ -1,4 +1,5 @@
 [![Website][website-shield]][website-url]
+[![Issues][issues-shield]][issues-url]
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -63,3 +64,6 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 [website-shield]: https://img.shields.io/website?url=https%3A%2F%2Ftombstonemap-v2.vercel.app%2F&style=for-the-badge
 [website-url]: https://tombstonemap-v2.vercel.app/
+
+[issues-shield]: https://img.shields.io/github/issues/dyls-03/tombstonemap-v2.svg?style=for-the-badge
+[issues-url]: https://github.com/dyls-03/tombstonemap-v2/issues
