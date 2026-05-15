@@ -101,7 +101,6 @@ export default function TombstoneMap() {
                             transform: "scale(0.75)",
                         }}
                     />
-
                 
                     <button
                     className="relative z-10 h-3.5 w-3.5 rounded-full border border-white/80"
