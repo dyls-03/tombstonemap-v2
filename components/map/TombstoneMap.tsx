@@ -74,6 +74,7 @@ export default function TombstoneMap() {
           zoom: 5.5,
         }}
         mapStyle="mapbox://styles/mapbox/dark-v11"
+        onClick={() => setSelectedSpot(null)}
       >
         {userLocation && (
           <Marker
