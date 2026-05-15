@@ -1,5 +1,6 @@
 
 import FloatingNavbar from "@/components/layout/FloatingNavBar";
+import WelcomePopup from "@/components/layout/WelcomePopup";
 import MapClient from "@/components/map/MapClient";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <main className="relative h-screen w-screen overflow-hidden bg-black">
       <FloatingNavbar />
       <MapClient />
+      <WelcomePopup />
     </main>
   );
 }
