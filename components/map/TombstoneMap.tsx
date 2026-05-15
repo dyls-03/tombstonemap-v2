@@ -7,6 +7,11 @@ import spots from "@/data/locations.json";
 import { TYPE_COLOURS } from "@/lib/typeColours";
 import type { Spot } from "@/types/location";
 
+import { useEffect, useRef, useState } from "react";
+import { User } from "lucide-react";
+import { APP_VERSION } from "@/lib/version";
+
+
 export default function TombstoneMap() {
   const typedSpots = spots as Spot[];
 
@@ -79,6 +84,13 @@ export default function TombstoneMap() {
           );
         })}
       </Map>
+      <div className="pointer-events-none absolute bottom-9 left-3 z-20">
+        <div className="rounded-xl border border-white/10 bg-black/40 px-3 py-2 backdrop-blur-md">
+          <div className="font-mono text-xs tracking-wide text-white/70">
+            {APP_VERSION}
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
