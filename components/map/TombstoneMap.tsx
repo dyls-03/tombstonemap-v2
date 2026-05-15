@@ -19,7 +19,9 @@ export default function TombstoneMap() {
     lat: number;
     lng: number;
   };
-  
+  /**
+   * Test patch
+   */
   const [userLocation, setUserLocation] = useState<UserLocation | null>(null);
   
   const mapRef = useRef<MapRef | null>(null);
