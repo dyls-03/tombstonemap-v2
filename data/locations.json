@@ -684,7 +684,8 @@
       "country": "Philippines",
       "type": "cliff",
       "lat": 9.1346,
-      "lng": 123.5238
+      "lng": 123.5238,
+      "heights": [12]
     },
     {
       "name": "Salagdoong Beach Resort",
