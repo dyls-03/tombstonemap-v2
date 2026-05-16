@@ -3,6 +3,7 @@
 import { Popup } from "react-map-gl/mapbox";
 import { TYPE_COLOURS } from "@/lib/typeColours";
 import type { Spot } from "@/types/location";
+import { createSpotId } from "@/utils/createSpotId";
 
 type Props = {
   spot: Spot;
@@ -101,10 +102,17 @@ export default function SpotPopup({ spot, onClose }: Props) {
             )}
 
             <a
+            href={`/spots/${createSpotId(spot.lat, spot.lng)}`}
+            className="mt-5 mb-2 flex w-full items-center justify-center rounded-xl border border-cyan-400/20 bg-cyan-400/10 px-4 py-3 text-sm font-medium text-cyan-200 transition hover:bg-cyan-400/20"
+            >
+            More Info
+            </a>
+
+            <a
             href={`https://www.google.com/maps?q=${spot.lat},${spot.lng}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-5 flex w-full items-center justify-center rounded-xl border border-cyan-400/20 bg-cyan-400/10 px-4 py-3 text-sm font-medium text-cyan-300 transition hover:bg-cyan-400/20"
+            className="mt-2 flex w-full items-center justify-center rounded-xl border border-emerald-300/30 bg-emerald-300/15 px-4 py-3 text-sm font-medium text-emerald-100 transition hover:bg-emerald-300/25"
             >
             Open in Maps
             </a>
