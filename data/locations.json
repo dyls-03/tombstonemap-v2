@@ -717,7 +717,8 @@
       "country": "Jamaica",
       "type": "cliff",
       "lat": 18.2543,
-      "lng": -78.3632
+      "lng": -78.3632,
+      "heights": [2, 3, 8, 11]
     },
     {
       "name": "Pozzone di Iragna",
