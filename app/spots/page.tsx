@@ -5,16 +5,7 @@ import FloatingNavbar from "@/components/layout/FloatingNavBar";
 import locations from "@/data/locations.json";
 import { createSpotId } from "@/utils/createSpotId";
 import Link from "next/link";
-
-type Spot = {
-  name: string;
-  lat: number;
-  lng: number;
-  country: string;
-  region: string;
-  type: string;
-  heights?: number[];
-};
+import type { Spot } from "@/types/location";
 
 export default function SpotsPage() {
   const [search, setSearch] = useState("");
@@ -42,7 +33,12 @@ export default function SpotsPage() {
   );
 
   const types = useMemo(
-    () => [...new Set(spots.map((spot) => spot.type))].sort(),
+    () =>
+      [
+        ...new Set(
+          spots.flatMap((spot) => [spot.type, ...(spot.tags ?? [])])
+        ),
+      ].sort(),
     [spots]
   );
 
@@ -55,11 +51,12 @@ export default function SpotsPage() {
         spot.name.toLowerCase().includes(query) ||
         spot.country.toLowerCase().includes(query) ||
         spot.region.toLowerCase().includes(query) ||
-        spot.type.toLowerCase().includes(query);
+        spot.type.toLowerCase().includes(query) ||
+        spot.tags?.some((tag) => tag.toLowerCase().includes(query));
 
       const matchesCountry = country === "all" || spot.country === country;
       const matchesRegion = region === "all" || spot.region === region;
-      const matchesType = type === "all" || spot.type === type;
+      const matchesType = type === "all" || spot.type === type || spot.tags?.includes(type);
 
       return matchesSearch && matchesCountry && matchesRegion && matchesType;
     });
@@ -180,9 +177,20 @@ export default function SpotsPage() {
                       </p>
                     </div>
 
-                    <span className="rounded-full border border-cyan-300/20 bg-cyan-300/10 px-3 py-1 text-xs text-cyan-200">
-                      {spot.type}
-                    </span>
+                      <div className="flex flex-wrap justify-end gap-2">
+                        <span className="rounded-full border border-cyan-300/20 bg-cyan-300/10 px-3 py-1 text-xs text-cyan-200">
+                          {spot.type}
+                        </span>
+
+                        {spot.tags?.map((tag) => (
+                          <span
+                            key={tag}
+                            className="rounded-full border border-white/10 bg-white/[0.04] px-3 py-1 text-xs text-white/45"
+                          >
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
                   </div>
 
                   <div className="mt-4 space-y-2 text-sm text-white/55">

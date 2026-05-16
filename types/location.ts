@@ -9,4 +9,4 @@ export type Spot = {
     tags?: string[];
     notes?: string;
     accessNotes?: string;
-  };
+};
