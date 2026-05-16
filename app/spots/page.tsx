@@ -82,8 +82,13 @@ export default function SpotsPage() {
         <h1 className="mt-3 text-4xl font-bold">Spots</h1>
 
         <p className="mt-4 max-w-2xl text-white/60">
-          Browse cliff jumps, swim spots, waterfalls and outdoor locations.
+            Browse cliff jumping spots in a clean list view.
         </p>
+
+        <div className="mt-3 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.03] px-3 py-1 text-xs tracking-wide text-white/35 backdrop-blur">
+            <div className="h-1.5 w-1.5 rounded-full bg-cyan-300/60" />
+            Click a spot to view more information
+        </div>
 
         <div className="mt-10 rounded-3xl border border-white/10 bg-white/[0.04] p-4 shadow-2xl backdrop-blur-xl">
           <div className="grid gap-3 md:grid-cols-4">
