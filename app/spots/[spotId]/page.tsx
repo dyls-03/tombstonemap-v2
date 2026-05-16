@@ -55,29 +55,41 @@ export default async function SpotDetailPage({ params }: PageProps) {
             </span>
           </div>
 
-          <div className="mt-8 grid gap-4 md:grid-cols-3">
-            <InfoTile label="Latitude" value={spot.lat.toFixed(5)} />
-            <InfoTile label="Longitude" value={spot.lng.toFixed(5)} />
-            <InfoTile
-              label="Heights"
-              value={
-                spot.heights?.length
-                  ? `${spot.heights.join("m, ")}m`
-                  : "Unknown"
-              }
-            />
-          </div>
+            <div className="mt-8 grid gap-4 md:grid-cols-3">
+                <InfoTile label="Latitude" value={spot.lat.toFixed(5)} />
+                <InfoTile label="Longitude" value={spot.lng.toFixed(5)} />
+
+                <a
+                    href={`https://www.google.com/maps?q=${spot.lat},${spot.lng}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex min-h-[86px] items-center justify-center rounded-2xl border border-cyan-300/20 bg-cyan-300/10 px-5 py-4 text-sm font-semibold text-cyan-200 transition hover:border-cyan-300/40 hover:bg-cyan-300/20"
+                >
+                    Open in Maps
+                </a>
+            </div>
+
+            <div className="mt-4">
+                <InfoTile
+                    label="Heights"
+                    value={
+                    spot.heights?.length
+                        ? `${spot.heights.join("m, ")}m`
+                        : "Unknown"
+                    }
+                />
+            </div>      
         </div>
 
         <div className="mt-6 grid gap-6 md:grid-cols-2">
-  <InfoSection title="Notes">
-    {spot.notes ?? "No notes have been added yet."}
-  </InfoSection>
+            <InfoSection title="Notes">
+                {spot.notes ?? "No notes have been added yet."}
+            </InfoSection>
 
-  <InfoSection title="Access notes">
-    {spot.accessNotes ?? "No access notes have been added yet."}
-  </InfoSection>
-</div>
+            <InfoSection title="Access notes">
+                {spot.accessNotes ?? "No access notes have been added yet."}
+            </InfoSection>
+        </div>
 
       </section>
     </main>
