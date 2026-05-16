@@ -3052,6 +3052,13 @@
       "type": "platform",
       "lat": 44.337868548344446,
       "lng": 17.270304235201646
+    },
+    {
+      "name": "Kalmandavi Waterfall",
+      "region":	"Maharashtra",
+      "country": "India",
+      "type":	"cliff"	,
+      "lat": 19.86908089101481, 
+      "lng": 73.25396722649553
     }
-  
   ]
