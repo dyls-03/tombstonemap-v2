@@ -22,7 +22,7 @@ export default function FloatingNavbar() {
 
           <div>
             <h1 className="text-sm font-bold tracking-wide">Tombstone Map</h1>
-            <p className="text-xs text-white/45">Cliff jump locations</p>
+            <p className="text-xs text-white/45">Cliff jump map</p>
           </div>
         </Link>
 
