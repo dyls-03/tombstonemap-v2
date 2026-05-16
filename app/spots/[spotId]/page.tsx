@@ -50,9 +50,20 @@ export default async function SpotDetailPage({ params }: PageProps) {
               </p>
             </div>
 
-            <span className="rounded-full border border-cyan-300/20 bg-cyan-300/10 px-4 py-2 text-sm text-cyan-200">
-              {spot.type}
-            </span>
+            <div className="flex flex-wrap justify-end gap-2">
+                <span className="rounded-full border border-cyan-300/20 bg-cyan-300/10 px-4 py-2 text-sm text-cyan-200">
+                    {spot.type}
+                </span>
+
+                {spot.tags?.map((tag) => (
+                    <span
+                    key={tag}
+                    className="rounded-full border border-white/10 bg-white/[0.04] px-4 py-2 text-sm text-white/45"
+                    >
+                    {tag}
+                    </span>
+                ))}
+            </div>
           </div>
 
             <div className="mt-8 grid gap-4 md:grid-cols-3">
