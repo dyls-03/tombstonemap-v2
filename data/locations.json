@@ -3060,5 +3060,13 @@
       "type":	"cliff"	,
       "lat": 19.86908089101481, 
       "lng": 73.25396722649553
+    },
+    {
+      "name": "Muelle de Azúcar Cliff Dive",
+      "region":	"Muelle de Azúcar Beach",
+      "country":	"Puerto Rico",
+      "type": "platform",	
+      "lat": 18.44507146152738, 
+      "lng": -67.160576036503
     }
   ]
