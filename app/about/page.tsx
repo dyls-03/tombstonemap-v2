@@ -11,8 +11,7 @@ export default function AboutPage() {
         </p>
         <h1 className="mt-3 text-4xl font-bold">About Tombstone Map</h1>
         <p className="mt-4 max-w-2xl text-white/60">
-          Tombstone Map is a modern map app for discovering and saving outdoor
-          water spots, cliff jumps and swim locations.
+        This site contains a cliff jumping map and list of cliff jumping locations around the world, with filters to help you find the perfect spot for your next jump.
         </p>
       </section>
     </main>
