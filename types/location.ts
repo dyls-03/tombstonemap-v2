@@ -8,4 +8,5 @@ export type Spot = {
     heights?: number[];
     tags?: string[];
     notes?: string;
+    accessNotes?: string;
   };
