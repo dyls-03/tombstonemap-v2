@@ -3070,5 +3070,44 @@
       "type": "platform",	
       "lat": 18.44507146152738, 
       "lng": -67.160576036503
+    },
+    {
+      "name": "Cenote Zemway",
+      "region": "Tulum",
+      "country": "Mexico",
+      "type": "platform",
+      "lat": 20.291582250761373,
+      "lng": -87.48722306065777,
+      "heights":[3, 5, 6, 14],
+      "notes": "Might need to book this"
+    },
+    {
+      "name": "Charco Frío",
+      "region": "Ceiba",
+      "country": "Puerto Rico",
+      "type": "cliff",
+      "lat": 18.26998186707125,
+      "lng": -65.71988396146243,
+      "heights":[3, 9],
+      "tags": ["swing"]
+    },
+    {
+      "name": "Las Pailas",
+      "region": "Luquillo",
+      "country": "Puerto Rico",
+      "type": "cliff",
+      "lat": 18.33823573057026,
+      "lng": -65.732003166354,
+      "notes": "There's also a natural waterslide here"
+    },
+    {
+      "name": "Las Tinajas Falls",
+      "region": "Fajardo",
+      "country": "Puerto Rico",
+      "type": "swing",
+      "lat": 18.272426804445736,
+      "lng": -65.72883072209724,
+      "heights":[4, 12],
+      "tags": ["cliff"]
     }
   ]
