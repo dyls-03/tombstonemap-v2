@@ -181,6 +181,57 @@ export default function AboutPage() {
           </div>
         </section>
 
+        {/* TECH / PROJECT */}
+        <section className="mt-14 rounded-3xl border border-white/10 bg-white/[0.03] p-8 backdrop-blur-xl">
+          <div className="flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
+            <div>
+              <p className="text-sm uppercase tracking-[0.25em] text-purple-300/70">
+                The Project
+              </p>
+
+              <h2 className="mt-3 text-3xl font-semibold">
+                Built with modern web technologies
+              </h2>
+
+              <p className="mt-5 max-w-3xl leading-relaxed text-white/65">
+                Tombstone Map V2 was rebuilt from the ground up as a fast,
+                responsive, and scalable mapping platform focused on adventure
+                spot discovery.
+              </p>
+
+              <p className="mt-4 max-w-3xl leading-relaxed text-white/65">
+                The application is built using modern technologies including
+                Next.js, React, TypeScript, Tailwind CSS, Mapbox, and Vercel,
+                with continuous updates and improvements being actively developed.
+              </p>
+
+              <p className="mt-4 max-w-3xl leading-relaxed text-white/50">
+                The long-term goal is to create the best global platform for
+                discovering, documenting, and sharing cliff jumping and outdoor
+                adventure locations.
+              </p>
+            </div>
+
+            <div className="flex shrink-0 flex-col gap-4">
+              <a
+                href="https://github.com/dyls-03/tombstonemap-v2"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-full bg-purple-400 px-6 py-3 text-center font-medium text-black transition hover:bg-purple-300"
+              >
+                View GitHub Repo
+              </a>
+
+              <Link
+                href="/"
+                className="rounded-full border border-white/15 bg-white/[0.04] px-6 py-3 text-center font-medium text-white transition hover:bg-white/[0.08]"
+              >
+                Open Map
+              </Link>
+            </div>
+          </div>
+        </section>
+
         {/* FUTURE */}
         <section className="mt-14 rounded-3xl border border-white/10 bg-white/[0.03] p-8 backdrop-blur-xl">
           <p className="text-sm uppercase tracking-[0.25em] text-cyan-300/70">
