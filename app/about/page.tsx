@@ -1,6 +1,7 @@
 import FloatingNavbar from "@/components/layout/FloatingNavBar";
 import LogoLoop from "@/components/LogoLoop";
 import Link from "next/link";
+import { APP_VERSION } from "@/lib/version";
 
 export default function AboutPage() {
 
@@ -54,7 +55,9 @@ export default function AboutPage() {
             </div>
 
             <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-4">
-              <p className="text-2xl font-bold text-cyan-300">V2</p>
+              <p className="text-2xl font-bold text-cyan-300">
+                {APP_VERSION}
+              </p>
               <p className="mt-1 text-sm text-white/50">Current Version</p>
             </div>
 
