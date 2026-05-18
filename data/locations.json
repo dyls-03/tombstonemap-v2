@@ -3114,7 +3114,7 @@
       "name": " Ponte dei Salti",
       "region": "Verzasca",
       "country": "Switzerland",
-      "type": "Bridge",
+      "type": "bridge",
       "lat": 46.26015581393252,
       "lng": 8.835970339879085,
       "heights":[13],
