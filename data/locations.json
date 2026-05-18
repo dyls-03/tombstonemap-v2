@@ -3130,6 +3130,52 @@
       "lng": 14.17088725211896,
       "tags": ["platform"],
       "notes": "Or if you're feeling brave try the gappy jump over the railing from the round slab next the bridge in the grass"
+    },
+    {
+      "name": "Carvalho Beach A",
+      "region": "Algarve",
+      "country": "Portugal",
+      "type": "cliff",
+      "lat": 37.086257359362676,
+      "lng": -8.431009354628776,
+      "heights": [4, 6]
+    },
+    {
+      "name": "Carvalho Beach B",
+      "region": "Algarve",
+      "country": "Portugal",
+      "type": "cliff",
+      "lat": 37.086342071212336,
+      "lng": -8.432037078934503,
+      "heights": [6]
+    },
+    {
+      "name": "Carvalho Beach C",
+      "region": "Algarve",
+      "country": "Portugal",
+      "type": "cliff",
+      "lat": 37.08583080944125,
+      "lng": -8.430579577963147,
+      "heights": [12]
+    },
+    {
+      "name": "Carvalho Beach D",
+      "region": "Algarve",
+      "country": "Portugal",
+      "type": "cliff",
+      "lat": 37.086479062731364,
+      "lng": -8.431151458380462,
+      "heights": [10]
+    },
+    {
+      "name": "Carvalho Beach E",
+      "region": "Algarve",
+      "country": "Portugal",
+      "type": "cliff",
+      "lat": 37.08584423119421,
+      "lng": -8.431451645836955,
+      "heights": [9],
+      "notes": "Needs some climbing"
     }
-  ]
+]
   			 					
