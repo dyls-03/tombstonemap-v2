@@ -3109,5 +3109,15 @@
       "lng": -65.72883072209724,
       "heights":[4, 12],
       "tags": ["cliff"]
+    },
+    {
+      "name": " Ponte dei Salti",
+      "region": "Verzasca",
+      "country": "Switzerland",
+      "type": "Bridge",
+      "lat": 46.26015581393252,
+      "lng": 8.835970339879085,
+      "heights":[13],
+      "tags": ["cliff", "roof"]
     }
   ]
