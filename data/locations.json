@@ -3111,13 +3111,25 @@
       "tags": ["cliff"]
     },
     {
-      "name": " Ponte dei Salti",
+      "name": "Ponte dei Salti",
       "region": "Verzasca",
       "country": "Switzerland",
       "type": "bridge",
       "lat": 46.26015581393252,
       "lng": 8.835970339879085,
-      "heights":[13],
-      "tags": ["cliff", "roof"]
+      "heights":[14],
+      "tags": ["cliff", "roof"],
+      "notes": "Can also jump from the rock underneath the bridge or the roof just a little east of the bridge"
+    },
+    {
+      "name": "Murau Bridge",
+      "region": "Murau",
+      "country": "Austria",
+      "type": "bridge",
+      "lat": 47.109563683083394,
+      "lng": 14.17088725211896,
+      "tags": ["platform"],
+      "notes": "Or if you're feeling brave try the gappy jump over the railing from the round slab next the bridge in the grass"
     }
   ]
+  			 					
