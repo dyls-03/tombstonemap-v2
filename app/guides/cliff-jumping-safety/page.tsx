@@ -60,6 +60,19 @@ export const metadata = {
   
             <section className="rounded-3xl border border-white/10 bg-white/[0.03] p-8 backdrop-blur-xl">
               <h2 className="mb-4 text-2xl font-semibold">
+                Never Go Alone
+              </h2>
+  
+              <p className="leading-relaxed text-white/65">
+              Visiting outdoor swimming and cliff jumping locations with other people is strongly recommended. 
+              In an emergency, having others nearby may be critical. 
+              At larger or more serious jumps, having confident swimmers or designated safety swimmers 
+              already in the water can help provide faster assistance if something goes wrong.
+              </p>
+            </section>
+
+            <section className="rounded-3xl border border-white/10 bg-white/[0.03] p-8 backdrop-blur-xl">
+              <h2 className="mb-4 text-2xl font-semibold">
                 Start Small
               </h2>
   
@@ -67,18 +80,6 @@ export const metadata = {
                 Beginners should always start from lower heights and gradually
                 build confidence. Larger jumps increase impact forces and reduce
                 the margin for error significantly.
-              </p>
-            </section>
-  
-            <section className="rounded-3xl border border-white/10 bg-white/[0.03] p-8 backdrop-blur-xl">
-              <h2 className="mb-4 text-2xl font-semibold">
-                Never Go Alone
-              </h2>
-  
-              <p className="leading-relaxed text-white/65">
-                Visiting outdoor swimming and cliff jumping locations with other
-                people is strongly recommended. In an emergency, having others
-                nearby may be critical.
               </p>
             </section>
   
