@@ -1,5 +1,6 @@
 
 import FloatingNavbar from "@/components/layout/FloatingNavBar";
+import LiveViewerPill from "@/components/layout/LiveViewerPill";
 import SpotCounterPill from "@/components/layout/SpotCounterPill";
 import WelcomePopup from "@/components/layout/WelcomePopup";
 import MapClient from "@/components/map/MapClient";
@@ -13,6 +14,7 @@ export default function Home() {
       <MapClient/>
       <WelcomePopup/>
       <SpeedInsights />
+      <LiveViewerPill/>
     </main>
   );
 }
