@@ -3176,6 +3176,16 @@
       "lng": -8.431451645836955,
       "heights": [9],
       "notes": "Needs some climbing"
+    },
+    {
+      "name": "Barton Springs Free Area",
+      "region": "Texas",
+      "country": "United States",
+      "type": "swing",
+      "lat": 30.264287826206935,
+      "lng": -97.76908303994901,
+      "tags": ["tree"],
+      "notes": "Needs some searching, but it's possible it's been taken down."
     }
 ]
-  			 					
+
