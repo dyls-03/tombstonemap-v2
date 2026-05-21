@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next"
 import Script from "next/script";
+import FloatingFooter from "@/components/layout/FloatingFooter";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -44,6 +45,7 @@ export default function RootLayout({
 
         {children}
         <Analytics/>
+        <FloatingFooter />
         </body>
     </html>
   );
