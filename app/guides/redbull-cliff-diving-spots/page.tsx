@@ -41,7 +41,19 @@ export const metadata = {
       
           "Conditions here can change significantly depending on swell, tides and weather, and the surrounding cliffs and rocks should always be treated with caution.",
         ],
-      },
+    },
+
+    {
+        name: "Vila Franca do Campo, Azores",
+        href: "/spots/37p70572--25p44172",
+        description: [
+          "Located off the coast of São Miguel in the Azores, Vila Franca do Campo is a volcanic islet surrounded by deep Atlantic water and dramatic cliff scenery.",
+      
+          "The Azores have featured in the Red Bull Cliff Diving World Series and are known for rugged coastlines, ocean swimming and natural volcanic formations.",
+      
+          "The area around the islet attracts swimmers, cliff jumpers and adventure tourists from around the world, although Atlantic swell, currents and changing ocean conditions should always be treated seriously.",
+        ],
+    },
   ];
   
   export default function RedBullCliffDivingPage() {
