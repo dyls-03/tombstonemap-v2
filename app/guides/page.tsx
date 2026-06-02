@@ -17,6 +17,13 @@ const guides = [
     tag: "Conditions",
   },
   {
+    title: "Red Bull Cliff Diving Spots",
+    description:
+      "A guide to famous Red Bull cliff diving and high diving locations around the world, including iconic competition venues and natural jumping spots.",
+    href: "/guides/redbull-cliff-diving-spots",
+    tag: "Spots",
+  },
+  {
     title: "What Gear to Bring",
     description:
       "Recommended equipment, essentials and useful items to consider when visiting outdoor swimming and cliff jumping locations.",
