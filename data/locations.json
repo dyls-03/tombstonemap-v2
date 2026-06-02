@@ -3245,8 +3245,18 @@
       "type": "bridge",
       "lat": 51.224695320045875,
       "lng": -0.5769645361675566,
-      "tags": ["platform, tree"],
+      "tags": ["platform", "tree"],
       "notes": "The platform is the brick wall next to the bridge."
-    }
+    },
+    {
+      "name": "Madonna sul Garda",
+      "region": "Trento",
+      "country": "Italy",
+      "type": "cliff",
+      "lat": 45.87673341318664,
+      "lng": 10.86279986451863,
+      "tags": ["bridge"],
+      "notes": "Can also jump from the handrail on the bridge."
+    }		
 ]
 
