@@ -3262,6 +3262,23 @@
       "lng": 10.86279986451863,
       "tags": ["bridge"],
       "notes": "Can also jump from the handrail on the bridge."
-    }		
+    },
+    {
+      "name": "Vila Franca do Campo",
+      "region": "Azores",
+      "country": "Portugal",
+      "type": "cliff",
+      "lat": 37.705715332498094,
+      "lng": -25.4417170858149
+    },
+    {
+      "name": "Caloura Coast",
+      "region": "Caloura",
+      "country": "Portugal",
+      "type": "cliff",
+      "lat": 37.71041679676982,
+      "lng": -25.512642680734768,
+      "heights": [1, 8]
+    }
 ]
 
