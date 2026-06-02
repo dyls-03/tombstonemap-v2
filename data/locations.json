@@ -3195,7 +3195,7 @@
     {
       "name": "Ballachulish Bridge",
       "region": "Ballachulish",
-      "country": "United Kingdom",
+      "country": "Scotland",
       "type": "bridge",
       "lat": 56.68943286057432,
       "lng": -5.182485342651557
@@ -3220,7 +3220,7 @@
     {
       "name": "Pont-y-Pair Bridge",
       "region": "Betws-y-Coed",
-      "country": "United Kingdom",
+      "country": "Wales",
       "type": "bridge",
       "lat": 53.10127202300146,
       "lng": -3.8075030772389593,
@@ -3237,7 +3237,7 @@
     {
       "name": "Wallingford Bridge",
       "region": "Wallingford",
-      "country": "United Kingdom",
+      "country": "England",
       "type": "bridge",
       "lat": 51.600754051522145,
       "lng": -1.1204342850933844,
@@ -3246,7 +3246,7 @@
     {
       "name": "River Wey Footbridge",
       "region": "Guildford",
-      "country": "United Kingdom",
+      "country": "England",
       "type": "bridge",
       "lat": 51.224695320045875,
       "lng": -0.5769645361675566,
@@ -3262,6 +3262,23 @@
       "lng": 10.86279986451863,
       "tags": ["bridge"],
       "notes": "Can also jump from the handrail on the bridge."
-    }		
+    },
+    {
+      "name": "Vila Franca do Campo",
+      "region": "Azores",
+      "country": "Portugal",
+      "type": "cliff",
+      "lat": 37.705715332498094,
+      "lng": -25.4417170858149
+    },
+    {
+      "name": "Caloura Coast",
+      "region": "Caloura",
+      "country": "Portugal",
+      "type": "cliff",
+      "lat": 37.71041679676982,
+      "lng": -25.512642680734768,
+      "heights": [1, 8]
+    }
 ]
 
