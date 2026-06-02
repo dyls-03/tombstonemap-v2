@@ -3186,6 +3186,67 @@
       "lng": -97.76908303994901,
       "tags": ["tree"],
       "notes": "Needs some searching, but it's possible it's been taken down."
+    },
+    {
+      "name": "Ballachulish Bridge",
+      "region": "Ballachulish",
+      "country": "United Kingdom",
+      "type": "bridge",
+      "lat": 56.68943286057432,
+      "lng": -5.182485342651557
+    },
+    {
+      "name": "Bahnhofbrücke",
+      "region": "Thun",
+      "country": "Switzerland",
+      "type": "bridge",
+      "lat": 46.75673908242034,
+      "lng": 7.630134096595748
+    },
+    {
+      "name": "Old Spanish Bridge",
+      "region": "Ocho Rios",
+      "country": "Jamaica",
+      "type": "bridge",
+      "lat": 18.353047968992193,
+      "lng": -77.04254482221339,
+      "tags": ["swing"]
+    },
+    {
+      "name": "Pont-y-Pair Bridge",
+      "region": "Betws-y-Coed",
+      "country": "United Kingdom",
+      "type": "bridge",
+      "lat": 53.10127202300146,
+      "lng": -3.8075030772389593,
+      "notes": "It is illegal to jump off this, you could get a fine if you're caught."
+    },
+    {
+      "name": "Puente medieval de Castro-Urdiales",
+      "region": "Cantabria",
+      "country": "Spain",
+      "type": "bridge",
+      "lat": 43.384280198946804,
+      "lng": -3.214815402360686
+    },
+    {
+      "name": "Wallingford Bridge",
+      "region": "Wallingford",
+      "country": "United Kingdom",
+      "type": "bridge",
+      "lat": 51.600754051522145,
+      "lng": -1.1204342850933844,
+      "notes": "Watch out for boats."
+    },
+    {
+      "name": "River Wey Footbridge",
+      "region": "Guildford",
+      "country": "United Kingdom",
+      "type": "bridge",
+      "lat": 51.224695320045875,
+      "lng": -0.5769645361675566,
+      "tags": ["platform, tree"],
+      "notes": "The platform is the brick wall next to the bridge."
     }
 ]
 
