@@ -3282,6 +3282,95 @@
       "lat": 37.71041679676982,
       "lng": -25.512642680734768,
       "heights": [1, 8]
+    },
+    {
+      "name": "Hahaland Hostel",
+      "region": "Quang Tri",
+      "country": "Vietnam",
+      "type": "platform",
+      "lat": 17.61507174457615,
+      "lng": 106.31603889299421,
+      "tags": ["swing", "bridge"],
+      "notes": "A hostel with a jump platform out back to the river. Also apparently possible to jump off the bridge at the back"
+    },
+    {
+      "name": "Monmouth Creek",
+      "region": "Squamish",
+      "country": "Canada",
+      "type": "cliff",
+      "lat": 49.71446418085224,
+      "lng": -123.18611536593804,
+      "notes": "Might require a hike, a scramble and a little climb to get to"
+    },
+    {
+      "name": "Black Rocks",
+      "region": "Michigan",
+      "country": "United States",
+      "type": "cliff",
+      "lat": 46.59662127103525,
+      "lng": -87.38154189449916,
+      "heights": [6],
+      "notes": "Multiple spots around"
+    },
+    {
+      "name": "Canyon Falls",
+      "region": "Michigan",
+      "country": "United States",
+      "type": "cliff",
+      "lat": 46.62261211410832,
+      "lng": -88.47646993031304
+    },
+    {
+      "name": "Dead River Falls",
+      "region": "Michigan",
+      "country": "United States",
+      "type": "cliff",
+      "lat": 46.568965137788396,
+      "lng": -87.47833328337856
+    },
+    {
+      "name": "Vomper Loch",
+      "region": "Tirol",
+      "country": "Austria",
+      "type": "platform",
+      "lat": 47.33405983999668,
+      "lng": 11.6604961152783,
+      "heights": [8],
+      "tags": ["swing"],
+      "notes": "Theres a rope swing too apparently"
+    },
+    {
+      "name": "Vila Franca do Campo",
+      "region": "Azores",
+      "country": "Portugal",
+      "type": "cliff",
+      "lat": 37.705715332498094,
+      "lng": -25.4417170858149
+    },
+    {
+      "name": "Coasteering spot",
+      "region": "Caloura",
+      "country": "Portugal",
+      "type": "cliff",
+      "lat": 37.71041679676982,
+      "lng": -25.512642680734768,
+      "notes": "Search around for the spots"
+    },
+    {
+      "name": "Bains des Pâquis",
+      "region": "Geneva",
+      "country": "Switzerland",
+      "type": "platform",
+      "lat": 46.20982710431099,
+      "lng": 6.154490517392183,
+      "notes": "Dive tower with multiple heights and some other dive platforms around too"
+    },
+    {
+      "name": "Nasuli Cold Spring",
+      "region": "Bukidnon",
+      "country": "Philippines",
+      "type": "platform",
+      "lat": 8.00132025407059,
+      "lng": 125.1264452677097
     }
 ]
-
