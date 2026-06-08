@@ -1002,7 +1002,9 @@
       "type": "platform",
       "lat": 14.720592987030082,
       "lng": -91.2608035646762,
-      "heights": [6, 12]
+      "heights": [5, 12],
+      "tags": ["cliff"],
+      "notes": "One of the best spots on lake Atitlan. The big 12m is off the platform at the top, and then below and next to it is an unmarked smaller 5m off a cliff."
     },
     {
       "name": "Buza Bar",
