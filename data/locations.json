@@ -3356,5 +3356,14 @@
       "type": "platform",
       "lat": 8.00132025407059,
       "lng": 125.1264452677097
+    },
+    {
+      "name": "McCloud Falls - Upper Fall",
+      "region": "California",
+      "country": "United States",
+      "type": "cliff",
+      "lat": 41.24035126458133,
+      "lng": -122.00904045403502,
+      "notes": "Jump over the railing near to the top of the waterfall"
     }
 ]
