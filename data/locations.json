@@ -3547,5 +3547,34 @@
       "lat": 56.5609863352272,
       "lng": -2.5569099551461907,
       "notes": "Places here to jump apparently"
+    },
+    {
+      "name": "Aquarium Beach",
+      "region": "Jala",
+      "country": "Albania",
+      "type": "cliff",
+      "lat": 40.112999839394014,
+      "lng": 19.711982440088335,
+      "notes": "Not super duper high but high enough to send some stuff off."
+    },
+    {
+      "name": "Niagara Waterfall",
+      "region": "Podgorica",
+      "country": "Montenegro",
+      "type": "cliff",
+      "lat": 42.38366372904133,
+      "lng": 19.27938340766056,
+      "notes": "Head down south down river to paths that lead down to the water and to cliff jump spots."
+    },
+    {
+      "name": "Blue Eye Thet",
+      "region": "Kaprre e Gimajve",
+      "country": "Albania",
+      "type": "cliff",
+      "lat": 42.36424757717422,
+      "lng": 19.74614110410477,
+      "tags":["bridge"],
+      "notes": "Should be some small cliffs around to jump from. You can also jump from the wooden bridge apparently."
     }
+
 ]
