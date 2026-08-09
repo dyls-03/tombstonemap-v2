@@ -1,7 +1,12 @@
+import FloatingNavbar from "@/components/layout/FloatingNavBar";
+
 export default function SupportPage() {
     return (
-        <main className="mx-auto max-w-3xl px-4 py-12">
+        
+        <main className="mx-auto max-w-3xl px-4 pb-12 pt-28">
+            <FloatingNavbar/>
             <section className="text-center">
+            
                 <h1 className="text-4xl font-bold">
                     Support Tombstone Map
                 </h1>

@@ -98,6 +98,19 @@ export default function FloatingNavbar() {
               </div>
             </div>
           </div>
+
+          {/* Support */}
+          <Link
+            href="/support"
+            className={
+              pathname.startsWith("/support")
+                ? "rounded-lg bg-white/10 px-3 py-2 text-sm text-white"
+                : "rounded-lg px-3 py-2 text-sm text-white/65 hover:bg-white/10 hover:text-white"
+            }
+          >
+            Support
+          </Link>
+
         </div>
 
         <button className="rounded-xl border border-cyan-400/30 bg-cyan-400/10 px-3 py-2 text-sm font-medium text-cyan-300">
