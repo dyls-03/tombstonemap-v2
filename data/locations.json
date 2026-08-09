@@ -433,14 +433,6 @@
       "heights": [14]
     },
     {
-      "name": "Arbroath Cliffs",
-      "region": "Arbroath",
-      "country": "Scotland",
-      "type": "cliff",
-      "lat": 56.5654,
-      "lng": -2.5431
-    },
-    {
       "name": "Tillyfourie Quarry",
       "region": "Aberdeen",
       "country": "Scotland",
@@ -1047,14 +1039,6 @@
       "lat": 11.864992105262283,
       "lng": 121.87749924662737,
       "heights": [5, 8, 15]
-    },
-    {
-      "name": "Arbroath Cliffs",
-      "region": "Angus",
-      "country": "Scotland",
-      "type": "cliff",
-      "lat": 56.5611,
-      "lng": -2.5571
     },
     {
       "name": "McHood Park",
@@ -3428,15 +3412,6 @@
       "notes": "Possibly some diving boards put up"
     },
     {
-      "name": "Arbroath Cliffs",
-      "region": "Arbroath",
-      "country": "Scotland",
-      "type": "cliff",
-      "lat": 56.5609863352272,
-      "lng": -2.5569099551461907,
-      "notes": "Places here to jump apparently"
-    },
-    {
       "name": "Kisdon Force Keld",
       "region": "Richmond",
       "country": "England",
@@ -3555,6 +3530,30 @@
       "lat": 42.259145588895244,
       "lng": 18.892489160934858,
       "notes": "Iconic dagger like piece of rock to dive from at an iconic photo point. Possibly Montenegro's second most popular spot yet still quite gatekept."
+    },
+    {
+      "name": "Arbroath Cliffs 1",
+      "region": "Arbroath",
+      "country": "Scotland",
+      "type": "cliff",
+      "lat": 56.5654,
+      "lng": -2.5431
+    },
+    {
+      "name": "Arbroath Cliffs 2",
+      "region": "Arbroath",
+      "country": "Scotland",
+      "type": "cliff",
+      "lat": 56.5611,
+      "lng": -2.5571
+    },
+    {
+      "name": "Arbroath Cliffs 3",
+      "region": "Arbroath",
+      "country": "Scotland",
+      "type": "cliff",
+      "lat": 56.5609863352272,
+      "lng": -2.5569099551461907,
+      "notes": "Places here to jump apparently"
     }
-
 ]
