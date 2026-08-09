@@ -3463,5 +3463,98 @@
       "lat": 49.307285537956155,
       "lng": 14.129758246815177,
       "tags": ["bridge", "swing"]
+    },
+    {
+      "name": "Mala Ponta",
+      "region": "Budva",
+      "country": "Montenegro",
+      "type": "cliff",
+      "lat": 42.274471223962706,
+      "lng": 18.83101708740202,
+      "heights":[3,4,5,6,14],
+      "notes": "Probably Montenegro's most popular cliff jumping spot that's a short walk from Mogren beach. There is possibly some 20 metre jumps too. Also watch out for sharks ;)"
+    },
+    {
+      "name": "Nevidio Canyon",
+      "region": "Pošćenje",
+      "country": "Montenegro",
+      "type": "cliff",
+      "lat": 42.990742043531455,
+      "lng": 19.067776238205166,
+      "notes": "Might be worth getting a canyoning tour first"
+    },
+    {
+      "name": "Seagull's Rock",
+      "region": "Kotor",
+      "country": "Montenegro",
+      "type": "cliff",
+      "lat": 42.47324584894089,
+      "lng": 18.76313080433556,
+      "heights":[7],
+      "tags":["platform"],
+      "notes": "A jetty and a 7 metre high rock you can jump off at Galebova stijena"
+    },
+    {
+      "name": "Cape Veslo",
+      "region": "Luštica",
+      "country": "Montenegro",
+      "type": "cliff",
+      "lat": 42.365873034297174,
+      "lng": 18.61216343172985,
+      "notes": "Deep drop zones"
+    },
+    {
+      "name": "Blue Cave",
+      "region": "Luštica",
+      "country": "Montenegro",
+      "type": "cliff",
+      "lat": 42.374155172853534,
+      "lng": 18.59633701729777,
+      "notes": "Multiple rocks and heights to jump from. Needs a boat to access, nice place to visit too."
+    },
+    {
+      "name": "Sveti Nikola Island Cave",
+      "region": "Budva",
+      "country": "Montenegro",
+      "type": "cliff",
+      "lat": 42.26391578442837,
+      "lng": 18.856972228596536
+    },
+    {
+      "name": "Hawaii Beach",
+      "region": "Budva",
+      "country": "Montenegro",
+      "type": "cliff",
+      "lat": 42.27018763858675,
+      "lng": 18.84610782358441,
+      "notes": "Pretty sure you can jump from that big rock in the sea. Should be some other rocks and cliff to jump off around here, you might need to explore a little."
+    },
+    {
+      "name": "Skali Budvi",
+      "region": "Budva",
+      "country": "Montenegro",
+      "type": "cliff",
+      "lat": 42.27682372178687,
+      "lng": 18.833599671711195,
+      "notes": "Apparently some daredevils jump from here."
+    },
+    {
+      "name": "Vezirov Bridge",
+      "region": "Podgorica",
+      "country": "Montenegro",
+      "type": "platform",
+      "lat": 42.45186346516574,
+      "lng": 19.261616429066738,
+      "notes": "Dedicated platform under the bridge to jump off with possibly 2 different heights."
+    },
+    {
+      "name": "Sveti Stefan",
+      "region": "Sveti Stefan",
+      "country": "Montenegro",
+      "type": "cliff",
+      "lat": 42.259145588895244,
+      "lng": 18.892489160934858,
+      "notes": "Iconic dagger like piece of rock to dive from at an iconic photo point. Possibly Montenegro's second most popular spot yet still quite gatekept."
     }
+
 ]
