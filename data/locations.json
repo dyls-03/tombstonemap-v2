@@ -433,14 +433,6 @@
       "heights": [14]
     },
     {
-      "name": "Arbroath Cliffs",
-      "region": "Arbroath",
-      "country": "Scotland",
-      "type": "cliff",
-      "lat": 56.5654,
-      "lng": -2.5431
-    },
-    {
       "name": "Tillyfourie Quarry",
       "region": "Aberdeen",
       "country": "Scotland",
@@ -1047,14 +1039,6 @@
       "lat": 11.864992105262283,
       "lng": 121.87749924662737,
       "heights": [5, 8, 15]
-    },
-    {
-      "name": "Arbroath Cliffs",
-      "region": "Angus",
-      "country": "Scotland",
-      "type": "cliff",
-      "lat": 56.5611,
-      "lng": -2.5571
     },
     {
       "name": "McHood Park",
@@ -1704,14 +1688,6 @@
       "type": "cliff",
       "lat": 40.586348426044545,
       "lng": 24.67861727678644
-    },
-    {
-      "name": "Aquarium Beach",
-      "region": "Jala",
-      "country": "Albania",
-      "type": "cliff",
-      "lat": 40.113023294885764,
-      "lng": 19.71198386261423
     },
     {
       "name": "Polylimnio Waterfalls",
@@ -3365,5 +3341,231 @@
       "lat": 41.24035126458133,
       "lng": -122.00904045403502,
       "notes": "Jump over the railing near to the top of the waterfall"
+    },
+    {
+      "name": "Furore Fjord",
+      "region": "Furore",
+      "country": "Italy",
+      "type": "cliff",
+      "lat": 40.61424023294902,
+      "lng": 14.554232412209775,
+      "tags": ["platform", "bridge"]
+    },
+    {
+      "name": "Mermaids Pool",
+      "region": "Sydney",
+      "country": "Australia",
+      "type": "cliff",
+      "lat": -34.23972960144743,
+      "lng": 150.60707020967635
+    },
+    {
+      "name": "McLaren Falls",
+      "region": "Omanawa",
+      "country": "New Zealand",
+      "type": "bridge",
+      "lat": -37.805644253166776,
+      "lng": 176.0451596722985,
+      "tags": ["cliff", "platform"]
+    },
+    {
+      "name": "Tauchplatz Gipserei Union",
+      "region": "Leissigen",
+      "country": "Switzerland",
+      "type": "platform",
+      "lat": 46.6584911200699,
+      "lng": 7.749050658128233
+    },
+    {
+      "name": "Džbán Reservoir",
+      "region": "Prague",
+      "country": "Czechia",
+      "type": "platform",
+      "lat": 50.09470049103015,
+      "lng": 14.326198608960485,
+      "notes": "Džbán Reservoir Diving Platform in Prague"
+    },
+    {
+      "name": "Blue Hole",
+      "region": "San Lawarenz",
+      "country": "Malta",
+      "type": "cliff",
+      "lat": 36.05299395441215,
+      "lng": 14.188672166204125,
+      "notes": "Gappy jump from the top cliff into the blue hole"
+    },
+    {
+      "name": "Puck's Rocks",
+      "region": "Howth",
+      "country": "Dublin",
+      "type": "cliff",
+      "lat": 53.38586536692246,
+      "lng": -6.048140400917386,
+      "notes": "Possibly some diving boards put up"
+    },
+    {
+      "name": "Kisdon Force Keld",
+      "region": "Richmond",
+      "country": "England",
+      "type": "cliff",
+      "lat": 54.40436125565728,
+      "lng": -2.1579238928570685,
+      "tags": ["swing"],
+      "notes": "9 waterfalls with rope swings and cliff jumps"
+    },
+    {
+      "name": "Stone Bridge",
+      "region": "Chelmsford",
+      "country": "England",
+      "type": "bridge",
+      "lat": 51.73151952840654,
+      "lng": 0.4747263692509527,
+      "notes": "Might be able to jump off the nearby roof into the river"
+    },
+    {
+      "name": "Hydroelectric plant",
+      "region": "Pisek",
+      "country": "Czechia",
+      "type": "platform",
+      "lat": 49.307285537956155,
+      "lng": 14.129758246815177,
+      "tags": ["bridge", "swing"]
+    },
+    {
+      "name": "Mala Ponta",
+      "region": "Budva",
+      "country": "Montenegro",
+      "type": "cliff",
+      "lat": 42.274471223962706,
+      "lng": 18.83101708740202,
+      "heights":[3,4,5,6,14],
+      "notes": "Probably Montenegro's most popular cliff jumping spot that's a short walk from Mogren beach. There is possibly some 20 metre jumps too. Also watch out for sharks ;)"
+    },
+    {
+      "name": "Nevidio Canyon",
+      "region": "Pošćenje",
+      "country": "Montenegro",
+      "type": "cliff",
+      "lat": 42.990742043531455,
+      "lng": 19.067776238205166,
+      "notes": "Might be worth getting a canyoning tour first"
+    },
+    {
+      "name": "Seagull's Rock",
+      "region": "Kotor",
+      "country": "Montenegro",
+      "type": "cliff",
+      "lat": 42.47324584894089,
+      "lng": 18.76313080433556,
+      "heights":[7],
+      "tags":["platform"],
+      "notes": "A jetty and a 7 metre high rock you can jump off at Galebova stijena"
+    },
+    {
+      "name": "Cape Veslo",
+      "region": "Luštica",
+      "country": "Montenegro",
+      "type": "cliff",
+      "lat": 42.365873034297174,
+      "lng": 18.61216343172985,
+      "notes": "Deep drop zones"
+    },
+    {
+      "name": "Blue Cave",
+      "region": "Luštica",
+      "country": "Montenegro",
+      "type": "cliff",
+      "lat": 42.374155172853534,
+      "lng": 18.59633701729777,
+      "notes": "Multiple rocks and heights to jump from. Needs a boat to access, nice place to visit too."
+    },
+    {
+      "name": "Sveti Nikola Island Cave",
+      "region": "Budva",
+      "country": "Montenegro",
+      "type": "cliff",
+      "lat": 42.26391578442837,
+      "lng": 18.856972228596536
+    },
+    {
+      "name": "Hawaii Beach",
+      "region": "Budva",
+      "country": "Montenegro",
+      "type": "cliff",
+      "lat": 42.27018763858675,
+      "lng": 18.84610782358441,
+      "notes": "Pretty sure you can jump from that big rock in the sea. Should be some other rocks and cliff to jump off around here, you might need to explore a little."
+    },
+    {
+      "name": "Skali Budvi",
+      "region": "Budva",
+      "country": "Montenegro",
+      "type": "cliff",
+      "lat": 42.27682372178687,
+      "lng": 18.833599671711195,
+      "notes": "Apparently some daredevils jump from here."
+    },
+    {
+      "name": "Vezirov Bridge",
+      "region": "Podgorica",
+      "country": "Montenegro",
+      "type": "platform",
+      "lat": 42.45186346516574,
+      "lng": 19.261616429066738,
+      "notes": "Dedicated platform under the bridge to jump off with possibly 2 different heights."
+    },
+    {
+      "name": "Sveti Stefan",
+      "region": "Sveti Stefan",
+      "country": "Montenegro",
+      "type": "cliff",
+      "lat": 42.259145588895244,
+      "lng": 18.892489160934858,
+      "notes": "Iconic dagger like piece of rock to dive from at an iconic photo point. Possibly Montenegro's second most popular spot yet still quite gatekept."
+    },
+    {
+      "name": "Arbroath Cliffs North",
+      "region": "Arbroath",
+      "country": "Scotland",
+      "type": "cliff",
+      "lat": 56.5654,
+      "lng": -2.5431
+    },
+    {
+      "name": "Arbroath Cliffs South",
+      "region": "Arbroath",
+      "country": "Scotland",
+      "type": "cliff",
+      "lat": 56.5609863352272,
+      "lng": -2.5569099551461907,
+      "notes": "Places here to jump apparently"
+    },
+    {
+      "name": "Aquarium Beach",
+      "region": "Jala",
+      "country": "Albania",
+      "type": "cliff",
+      "lat": 40.112999839394014,
+      "lng": 19.711982440088335,
+      "notes": "Not super duper high but high enough to send some stuff off."
+    },
+    {
+      "name": "Niagara Waterfall",
+      "region": "Podgorica",
+      "country": "Montenegro",
+      "type": "cliff",
+      "lat": 42.38366372904133,
+      "lng": 19.27938340766056,
+      "notes": "Head down south down river to paths that lead down to the water and to cliff jump spots."
+    },
+    {
+      "name": "Blue Eye Thet",
+      "region": "Kaprre e Gimajve",
+      "country": "Albania",
+      "type": "cliff",
+      "lat": 42.36424757717422,
+      "lng": 19.74614110410477,
+      "tags":["bridge"],
+      "notes": "Should be some small cliffs around to jump from. You can also jump from the wooden bridge apparently."
     }
 ]
