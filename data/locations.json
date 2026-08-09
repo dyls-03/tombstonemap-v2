@@ -3532,7 +3532,7 @@
       "notes": "Iconic dagger like piece of rock to dive from at an iconic photo point. Possibly Montenegro's second most popular spot yet still quite gatekept."
     },
     {
-      "name": "Arbroath Cliffs 1",
+      "name": "Arbroath Cliffs North",
       "region": "Arbroath",
       "country": "Scotland",
       "type": "cliff",
@@ -3540,15 +3540,7 @@
       "lng": -2.5431
     },
     {
-      "name": "Arbroath Cliffs 2",
-      "region": "Arbroath",
-      "country": "Scotland",
-      "type": "cliff",
-      "lat": 56.5611,
-      "lng": -2.5571
-    },
-    {
-      "name": "Arbroath Cliffs 3",
+      "name": "Arbroath Cliffs South",
       "region": "Arbroath",
       "country": "Scotland",
       "type": "cliff",
