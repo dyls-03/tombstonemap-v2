@@ -1690,14 +1690,6 @@
       "lng": 24.67861727678644
     },
     {
-      "name": "Aquarium Beach",
-      "region": "Jala",
-      "country": "Albania",
-      "type": "cliff",
-      "lat": 40.113023294885764,
-      "lng": 19.71198386261423
-    },
-    {
       "name": "Polylimnio Waterfalls",
       "region": "Voufrada",
       "country": "Greece",
@@ -3576,5 +3568,4 @@
       "tags":["bridge"],
       "notes": "Should be some small cliffs around to jump from. You can also jump from the wooden bridge apparently."
     }
-
 ]
