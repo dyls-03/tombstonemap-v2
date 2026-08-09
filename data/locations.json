@@ -3365,5 +3365,103 @@
       "lat": 41.24035126458133,
       "lng": -122.00904045403502,
       "notes": "Jump over the railing near to the top of the waterfall"
+    },
+    {
+      "name": "Furore Fjord",
+      "region": "Furore",
+      "country": "Italy",
+      "type": "cliff",
+      "lat": 40.61424023294902,
+      "lng": 14.554232412209775,
+      "tags": ["platform", "bridge"]
+    },
+    {
+      "name": "Mermaids Pool",
+      "region": "Sydney",
+      "country": "Australia",
+      "type": "cliff",
+      "lat": -34.23972960144743,
+      "lng": 150.60707020967635
+    },
+    {
+      "name": "McLaren Falls",
+      "region": "Omanawa",
+      "country": "New Zealand",
+      "type": "bridge",
+      "lat": -37.805644253166776,
+      "lng": 176.0451596722985,
+      "tags": ["cliff", "platform"]
+    },
+    {
+      "name": "Tauchplatz Gipserei Union",
+      "region": "Leissigen",
+      "country": "Switzerland",
+      "type": "platform",
+      "lat": 46.6584911200699,
+      "lng": 7.749050658128233
+    },
+    {
+      "name": "Džbán Reservoir",
+      "region": "Prague",
+      "country": "Czechia",
+      "type": "platform",
+      "lat": 50.09470049103015,
+      "lng": 14.326198608960485,
+      "notes": "Džbán Reservoir Diving Platform in Prague"
+    },
+    {
+      "name": "Blue Hole",
+      "region": "San Lawarenz",
+      "country": "Malta",
+      "type": "cliff",
+      "lat": 36.05299395441215,
+      "lng": 14.188672166204125,
+      "notes": "Gappy jump from the top cliff into the blue hole"
+    },
+    {
+      "name": "Puck's Rocks",
+      "region": "Howth",
+      "country": "Dublin",
+      "type": "cliff",
+      "lat": 53.38586536692246,
+      "lng": -6.048140400917386,
+      "notes": "Possibly some diving boards put up"
+    },
+    {
+      "name": "Arbroath Cliffs",
+      "region": "Arbroath",
+      "country": "Scotland",
+      "type": "cliff",
+      "lat": 56.5609863352272,
+      "lng": -2.5569099551461907,
+      "notes": "Places here to jump apparently"
+    },
+    {
+      "name": "Kisdon Force Keld",
+      "region": "Richmond",
+      "country": "England",
+      "type": "cliff",
+      "lat": 54.40436125565728,
+      "lng": -2.1579238928570685,
+      "tags": ["swing"],
+      "notes": "9 waterfalls with rope swings and cliff jumps"
+    },
+    {
+      "name": "Stone Bridge",
+      "region": "Chelmsford",
+      "country": "England",
+      "type": "bridge",
+      "lat": 51.73151952840654,
+      "lng": 0.4747263692509527,
+      "notes": "Might be able to jump off the nearby roof into the river"
+    },
+    {
+      "name": "Hydroelectric plant",
+      "region": "Pisek",
+      "country": "Czechia",
+      "type": "platform",
+      "lat": 49.307285537956155,
+      "lng": 14.129758246815177,
+      "tags": ["bridge", "swing"]
     }
 ]
