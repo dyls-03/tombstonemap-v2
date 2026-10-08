@@ -3567,5 +3567,109 @@
       "lng": 19.74614110410477,
       "tags":["bridge"],
       "notes": "Should be some small cliffs around to jump from. You can also jump from the wooden bridge apparently."
+    },
+    {
+      "name": "Nimfa Beach",
+      "region": "Vlorë",
+      "country": "Albania",
+      "type": "board",
+      "lat": 40.406376581657106,
+      "lng": 19.48005077872671
+    },
+    {
+      "name": "Llamani Beach",
+      "region": "Himarë",
+      "country": "Albania",
+      "type": "cliff",
+      "lat": 40.079484091496425,
+      "lng": 19.76749925024098
+    },
+    {
+      "name": "Kanioni Ura e Shtrenjtë",
+      "region": "Ura e Shtrenjtë",
+      "country": "Albania",
+      "type": "cliff",
+      "lat": 42.16015729044,
+      "lng": 19.674062802058767
+    },
+    {
+      "name": "Gjipe Beach",
+      "region": "Himarë",
+      "country": "Albania",
+      "type": "cliff",
+      "lat": 40.12700448163697,
+      "lng": 19.670465441827304
+    },
+    {
+      "name": "Pirate's Cove",
+      "region": "West Virginia",
+      "country": "United States",
+      "type": "cliff",
+      "lat": 38.24261234224249,
+      "lng": -80.8488165948576
+    },
+    {
+      "name": "Foster Falls",
+      "region": "Tennessee",
+      "country": "United States",
+      "type": "cliff",
+      "lat": 35.18191514634619,
+      "lng": -85.67601575622847
+    },
+    {
+      "name": "Afqa Waterfall",
+      "region": "Afqa",
+      "country": "Lebanon",
+      "type": "platform",
+      "lat": 34.06792246053614,
+      "lng": 35.8923941207834
+    },
+    {
+      "name": "Mullaghmore Pier",
+      "region": "Mullaghmore",
+      "country": "Ireland",
+      "type": "platform",
+      "lat": 54.46581066253794,
+      "lng": -8.44711454985589
+    },
+    {
+      "name": "Warren Falls",
+      "region": "Vermont",
+      "country": "United States",
+      "type": "cliff",
+      "lat": 44.09547853811314,
+      "lng": -72.86431003537488
+    },
+    {
+      "name": "Passerelle du Lac de Bordeaux",
+      "region": "Bordeaux",
+      "country": "France",
+      "type": "bridge",
+      "lat": 44.888255912597174,
+      "lng": -0.5851331351701603
+    },
+    {
+      "name": "Millaa Millaa Falls",
+      "region": "Queensland",
+      "country": "Australia",
+      "type": "cliff",
+      "lat": -17.495549953437546,
+      "lng": 145.6108047273509
+    },
+    {
+      "name": "Barron Falls",
+      "region": "Queensland",
+      "country": "Australia",
+      "type": "cliff",
+      "lat": -16.83313807719693,
+      "lng": 145.64302121505418
+    },
+    {
+      "name": "Upper Rock Run Falls",
+      "region": "Pennsylvania",
+      "country": "United States",
+      "type": "cliff",
+      "lat": 41.59011215016832,
+      "lng": -76.88516010074322
     }
 ]
