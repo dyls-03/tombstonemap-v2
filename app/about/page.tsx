@@ -45,7 +45,7 @@ export default function AboutPage() {
           {/* STATS */}
           <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
             <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-4">
-              <p className="text-2xl font-bold text-cyan-300">300+</p>
+              <p className="text-2xl font-bold text-cyan-300">400+</p>
               <p className="mt-1 text-sm text-white/50">Spots</p>
             </div>
 
