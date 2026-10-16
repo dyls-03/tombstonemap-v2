@@ -3678,7 +3678,8 @@
       "country": "France",
       "type": "cliff",
       "lat": 43.48411213723386,
-      "lng": -1.5703728607869303
+      "lng": -1.5703728607869303,
+      "notes": "Notable spot where cliff jumpers dØds'd in front of the 2026 eclipse"
     },
     {
       "name": "Punta del Dichoso",
@@ -3688,13 +3689,5 @@
       "lat": 43.443405171535126,
       "lng": -4.048223422544918,
       "heights": [24]
-    },
-    {
-      "name": "Biarritz White Bridge",
-      "region": "Biarritz",
-      "country": "France",
-      "type": "bridge",
-      "lat": 43.48340475565661,
-      "lng": -1.5657246706865897
     }
 ]
