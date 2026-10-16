@@ -146,7 +146,7 @@ export default function TombstoneMap() {
           />
         )}
       </Map>
-      <div className="pointer-events-none absolute bottom-9 left-2 z-20">
+      <div className="pointer-events-none absolute bottom-[max(3rem,calc(env(safe-area-inset-bottom)+1rem))] left-2 z-20 md:bottom-9">
         <div className="rounded-xl border border-white/10 bg-black/40 px-3 py-2 backdrop-blur-md">
           <div className="font-mono text-xs tracking-wide text-white/70">
             {APP_VERSION}

@@ -8,7 +8,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export default function Home() {
   return (
-    <main className="relative h-screen w-screen overflow-hidden bg-black">
+    <main className="relative h-dvh w-screen overflow-hidden bg-black">
       <FloatingNavbar/>
       <SpotCounterPill/>
       <MapClient/>

@@ -9,7 +9,7 @@ const footerLinks = [
 
 export default function FloatingFooter() {
   return (
-    <footer className="fixed bottom-4 left-1/2 z-[1000] w-[calc(100%-2rem)] max-w-xl -translate-x-1/2">
+    <footer className="fixed bottom-4 left-1/2 z-[1000] hidden w-[calc(100%-2rem)] max-w-xl -translate-x-1/2 md:block">
       <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 rounded-2xl border border-white/10 bg-black/70 px-4 py-2 text-xs text-white/50 shadow-2xl backdrop-blur-xl">
         <span className="text-white/35">
           © 2026 Tombstone Map
