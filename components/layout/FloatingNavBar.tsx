@@ -1,6 +1,6 @@
 "use client";
 
-import { Menu, X } from "lucide-react";
+import { ChevronDown, Menu, X } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -18,15 +18,10 @@ const aboutItems = [
   { label: "Disclaimer", href: "/about/disclaimer" },
 ];
 
-const mobileNavItems = [
-  ...navItems,
-  ...aboutItems,
-  { label: "Support", href: "/support" },
-];
-
 export default function FloatingNavbar() {
   const pathname = usePathname();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isMobileAboutOpen, setIsMobileAboutOpen] = useState(false);
 
   const isActive = (href: string) => {
     if (href === "/") return pathname === "/";
@@ -36,7 +31,15 @@ export default function FloatingNavbar() {
     return pathname === href;
   };
 
-  const closeMobileMenu = () => setIsMobileMenuOpen(false);
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
+    setIsMobileAboutOpen(false);
+  };
+
+  const toggleMobileMenu = () => {
+    if (isMobileMenuOpen) setIsMobileAboutOpen(false);
+    setIsMobileMenuOpen((isOpen) => !isOpen);
+  };
 
   return (
     <>
@@ -139,7 +142,7 @@ export default function FloatingNavbar() {
             aria-expanded={isMobileMenuOpen}
             aria-controls="mobile-navigation"
             className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-cyan-400/30 bg-cyan-400/10 text-cyan-300 transition hover:bg-cyan-400/20 md:hidden"
-            onClick={() => setIsMobileMenuOpen((isOpen) => !isOpen)}
+            onClick={toggleMobileMenu}
           >
             {isMobileMenuOpen ? (
               <X className="h-5 w-5" aria-hidden="true" />
@@ -156,7 +159,7 @@ export default function FloatingNavbar() {
             className="absolute top-[calc(100%+0.5rem)] max-h-[calc(100dvh-6.5rem)] w-full overflow-y-auto overscroll-contain rounded-2xl border border-white/10 bg-black/95 p-2 text-white shadow-2xl backdrop-blur-xl md:hidden"
           >
             <div className="grid grid-cols-2 gap-1">
-              {mobileNavItems.map((item) => (
+              {navItems.map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}
@@ -171,6 +174,60 @@ export default function FloatingNavbar() {
                   {item.label}
                 </Link>
               ))}
+
+              <button
+                type="button"
+                aria-expanded={isMobileAboutOpen}
+                aria-controls="mobile-about-navigation"
+                className={
+                  pathname.startsWith("/about")
+                    ? "flex items-center justify-between rounded-xl bg-white/10 px-4 py-3 text-sm font-medium text-white"
+                    : "flex items-center justify-between rounded-xl px-4 py-3 text-sm text-white/70 transition hover:bg-white/10 hover:text-white"
+                }
+                onClick={() => setIsMobileAboutOpen((isOpen) => !isOpen)}
+              >
+                <span>About</span>
+                <ChevronDown
+                  className={`h-4 w-4 transition-transform ${isMobileAboutOpen ? "rotate-180" : ""}`}
+                  aria-hidden="true"
+                />
+              </button>
+
+              {isMobileAboutOpen && (
+                <div
+                  id="mobile-about-navigation"
+                  className="col-span-2 grid grid-cols-2 gap-1 rounded-xl border border-white/10 bg-white/[0.04] p-1"
+                >
+                  {aboutItems.map((item) => (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      aria-current={pathname === item.href ? "page" : undefined}
+                      className={
+                        pathname === item.href
+                          ? "rounded-lg bg-white/10 px-3 py-2.5 text-sm font-medium text-white"
+                          : "rounded-lg px-3 py-2.5 text-sm text-white/60 transition hover:bg-white/10 hover:text-white"
+                      }
+                      onClick={closeMobileMenu}
+                    >
+                      {item.href === "/about" ? "Overview" : item.label}
+                    </Link>
+                  ))}
+                </div>
+              )}
+
+              <Link
+                href="/support"
+                aria-current={pathname === "/support" ? "page" : undefined}
+                className={
+                  pathname === "/support"
+                    ? "rounded-xl bg-white/10 px-4 py-3 text-sm font-medium text-white"
+                    : "rounded-xl px-4 py-3 text-sm text-white/70 transition hover:bg-white/10 hover:text-white"
+                }
+                onClick={closeMobileMenu}
+              >
+                Support
+              </Link>
             </div>
 
             <div className="mt-2 border-t border-white/10 pt-2">
