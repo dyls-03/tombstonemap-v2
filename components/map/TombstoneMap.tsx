@@ -97,6 +97,7 @@ export default function TombstoneMap() {
               longitude={spot.lng}
               latitude={spot.lat}
               anchor="center"
+              className="tombstone-marker"
             >
               <div className="group relative">
                 <div className="relative">

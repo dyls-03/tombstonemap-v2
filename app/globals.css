@@ -25,6 +25,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.tombstone-marker:hover,
+.tombstone-marker:focus-within {
+  z-index: 10;
+}
+
+.tombstone-popup {
+  z-index: 20;
+}
+
 .tombstone-popup .mapboxgl-popup-content {
   background: transparent !important;
   box-shadow: none !important;
