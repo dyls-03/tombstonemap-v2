@@ -39,7 +39,7 @@ export default function LiveViewerPill() {
   if (count === null) return null;
 
   return (
-    <div className="fixed bottom-15 left-1/2 z-50 -translate-x-1/2">
+    <div className="fixed bottom-[max(1rem,env(safe-area-inset-bottom))] left-1/2 z-50 -translate-x-1/2 md:bottom-15">
       <div className="flex items-center gap-2 rounded-full border border-white/10 bg-black/45 px-3 py-1.5 text-sm text-white shadow-lg backdrop-blur-md">
         <Eye className="h-4 w-4 text-purple-300" />
         <span className="font-semibold">{count}</span>

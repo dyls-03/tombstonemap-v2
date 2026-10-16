@@ -9,7 +9,7 @@ export default function WelcomePopup() {
 
   return (
     <div className="fixed inset-0 z-[2000] flex items-center justify-center bg-black/45 px-4 backdrop-blur-sm">
-      <div className="max-w-md rounded-2xl border border-white/10 bg-black/90 p-6 text-white shadow-2xl">
+      <div className="max-h-[calc(100dvh-2rem)] w-full min-w-0 max-w-md overflow-y-auto rounded-2xl border border-white/10 bg-black/90 p-5 text-white shadow-2xl sm:p-6">
         <p className="text-xs uppercase tracking-[0.3em] text-cyan-300/70">
           New version
         </p>
