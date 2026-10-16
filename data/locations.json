@@ -3249,7 +3249,8 @@
       "type": "cliff",
       "lat": 37.71041679676982,
       "lng": -25.512642680734768,
-      "heights": [1, 8]
+      "heights": [1, 8],
+      "notes": "Search around for the spots"
     },
     {
       "name": "Hahaland Hostel",
@@ -3306,15 +3307,6 @@
       "heights": [8],
       "tags": ["swing"],
       "notes": "Theres a rope swing too apparently"
-    },
-    {
-      "name": "Coasteering spot",
-      "region": "Caloura",
-      "country": "Portugal",
-      "type": "cliff",
-      "lat": 37.71041679676982,
-      "lng": -25.512642680734768,
-      "notes": "Search around for the spots"
     },
     {
       "name": "Bains des Pâquis",
