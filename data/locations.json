@@ -3671,5 +3671,13 @@
       "type": "cliff",
       "lat": 41.59011215016832,
       "lng": -76.88516010074322
+    },
+    {
+      "name": "Rocher de la Vierge",
+      "region": "Biarritz",
+      "country": "France",
+      "type": "cliff",
+      "lat": 43.48411213723386,
+      "lng": -1.5703728607869303
     }
 ]
