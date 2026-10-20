@@ -3693,5 +3693,91 @@
       "tags": ["cliff"],
       "heights": [10],
       "notes": "Can jump off the 10m cliff opposite the white bridge, does require a little bit of a side quest to get there though."
+    },
+    {
+      "name": "Der vierte König roof",
+      "region": "Basel",
+      "country": "Switzerland",
+      "type": "roof",
+      "lat": 47.56137244548033,
+      "lng": 7.587133962019384,
+      "notes": "Can jump from roof to the pillar for a little parkour challenge"
+    },
+    {
+      "name": "Basel Schifflände",
+      "region": "Basel",
+      "country": "Switzerland",
+      "type": "platform",
+      "lat": 47.559925401170425,
+      "lng": 7.588422903278246,
+      "notes": "Multiple ledges to jump from, each gappier than the last"
+    },
+    {
+      "name": "Kotor Submarine Tunnel",
+      "region": "Kumbor",
+      "country": "Montenegro",
+      "type": "platform",
+      "lat": 42.43060541103521,
+      "lng": 18.58139296316404,
+      "notes": "Multiple submarine tunnels along the coast here with different height ledges"
+    },
+    {
+      "name": "Royal William Yard",
+      "region": "Plymouth",
+      "country": "England",
+      "type": "platform",
+      "lat": 50.36022019756145,
+      "lng": -4.167169980924662
+    },
+    {
+      "name": "Brighton Palace Pier Groyne",
+      "region": "Brighton",
+      "country": "England",
+      "type": "platform",
+      "lat": 50.81855509161908,
+      "lng": -0.13687538486542067
+    },
+    {
+      "name": "Groby Pools",
+      "region": "Groby",
+      "country": "England",
+      "type": "cliff",
+      "lat": 52.67115049706018,
+      "lng": -1.225651054698623,
+      "notes": "Exact spot or pool unknown but somewhere around here there are lots of spots"
+    },
+    {
+      "name": "Linhope Spout Waterfall",
+      "region": "Alnwick",
+      "country": "England",
+      "type": "cliff",
+      "lat": 55.44783479212784,
+      "lng": -2.067110783780306,
+      "notes": "A couple heights here apparently"
+    },
+    {
+      "name": "Ponte Pensil",
+      "region": "Porto",
+      "country": "Portugal",
+      "type": "platform",
+      "lat": 41.14055892614513,
+      "lng": -8.609878131362553
+    },
+    {
+      "name": "Goldfish Point",
+      "region": "San Diego",
+      "country": "United States",
+      "type": "cliff",
+      "lat": 32.850117731298184,
+      "lng": -117.27016370343976
+    },
+    {
+      "name": "Tenby Harbour",
+      "region": "Tenby",
+      "country": "Wales",
+      "type": "roof",
+      "lat": 51.67288691781775,
+      "lng": -4.69660452557155,
+      "notes": "Can jump into the harbour or if you're feeling brave scale the roofs until you get to the round part of this building where you can jump off if it's deep enough"
     }
 ]
