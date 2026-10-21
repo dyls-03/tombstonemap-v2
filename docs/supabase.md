@@ -7,6 +7,11 @@ editing it no longer changes the website.
 
 ## Local development
 
+Use Node.js 22.x, as declared in `package.json`. The installed Supabase SDK
+requires Node.js 22 or later and initializes its WebSocket support when creating
+the client, even for these HTTP-only reads. The PR workflow reads this version
+from `package.json`; tests mock database responses and need no Supabase secrets.
+
 Install dependencies with `npm ci`. Set these values in the ignored `.env.local`:
 
 ```dotenv
@@ -68,6 +73,9 @@ where slug = '41p07176--111p91479';
 ```
 
 ## Vercel
+
+The `engines.node` declaration in `package.json` selects Node.js 22.x for Vercel
+builds and server functions, keeping deployment aligned with the PR workflow.
 
 1. Add `SUPABASE_URL` and `SUPABASE_PUBLISHABLE_KEY` to the project's Vercel
    environment variables for Production and Preview. Preserve its existing
