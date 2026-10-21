@@ -1,4 +1,6 @@
 export type Spot = {
+    id: string;
+    slug: string;
     name: string;
     region: string;
     country: string;

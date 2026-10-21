@@ -1,7 +1,5 @@
 import FloatingNavbar from "@/components/layout/FloatingNavBar";
-import locations from "@/data/locations.json";
-import type { Spot } from "@/types/location";
-import { createSpotId } from "@/utils/createSpotId";
+import { getPublishedSpotBySlug } from "@/lib/spots";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -14,11 +12,7 @@ type PageProps = {
 export default async function SpotDetailPage({ params }: PageProps) {
     const {spotId} = await params;
   
-    const spots = locations as Spot[];
-
-  const spot = spots.find(
-    (spot) => createSpotId(spot.lat, spot.lng) === spotId
-  );
+  const spot = await getPublishedSpotBySlug(spotId);
 
   if (!spot) {
     notFound();

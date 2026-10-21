@@ -3,7 +3,6 @@
 import Map, { Marker, MapRef } from "react-map-gl/mapbox";
 import "mapbox-gl/dist/mapbox-gl.css";
 
-import spots from "@/data/locations.json";
 import { TYPE_COLOURS } from "@/lib/typeColours";
 import type { Spot } from "@/types/location";
 
@@ -14,8 +13,7 @@ import { APP_VERSION } from "@/lib/version";
 import SpotPopup from "../spots/SpotPopup";
 
 
-export default function TombstoneMap() {
-  const typedSpots = spots as Spot[];
+export default function TombstoneMap({ spots }: { spots: Spot[] }) {
 
   type UserLocation = {
     lat: number;
@@ -28,7 +26,7 @@ export default function TombstoneMap() {
   
   const mapRef = useRef<MapRef | null>(null);
 
-  const validSpots = typedSpots.filter(
+  const validSpots = spots.filter(
     (spot) =>
       typeof spot.lat === "number" &&
       typeof spot.lng === "number" &&
@@ -93,7 +91,7 @@ export default function TombstoneMap() {
 
           return (
             <Marker
-              key={`${spot.name}-${spot.lat}-${spot.lng}`}
+              key={spot.id}
               longitude={spot.lng}
               latitude={spot.lat}
               anchor="center"

@@ -53,6 +53,10 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Spot data
+
+Spot data is served from Supabase PostgreSQL. See [Supabase setup and deployment](docs/supabase.md) for environment variables, access rules and editing instructions.
+
 
 
 
