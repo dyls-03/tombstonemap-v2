@@ -1,10 +1,8 @@
-import { Spot } from "@/types/location";
-import spots from "@/data/locations.json";
+import type { Spot } from "@/types/location";
 
-export default function SpotCounterPill() {
-    const typedSpots = spots as Spot[];
+export default function SpotCounterPill({ spots }: { spots: Spot[] }) {
     
-    const validSpotCount = typedSpots.filter(
+    const validSpotCount = spots.filter(
         (spot) =>
             typeof spot.lat === "number" &&
             typeof spot.lng === "number" &&

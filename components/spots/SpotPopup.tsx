@@ -3,7 +3,6 @@
 import { Popup } from "react-map-gl/mapbox";
 import { TYPE_COLOURS } from "@/lib/typeColours";
 import type { Spot } from "@/types/location";
-import { createSpotId } from "@/utils/createSpotId";
 
 type Props = {
   spot: Spot;
@@ -102,7 +101,7 @@ export default function SpotPopup({ spot, onClose }: Props) {
             )}
 
             <a
-            href={`/spots/${createSpotId(spot.lat, spot.lng)}`}
+            href={`/spots/${encodeURIComponent(spot.slug)}`}
             className="mt-5 mb-2 flex w-full items-center justify-center rounded-xl border border-cyan-400/20 bg-cyan-400/10 px-4 py-3 text-sm font-medium text-cyan-200 transition hover:bg-cyan-400/20"
             >
             More Info
