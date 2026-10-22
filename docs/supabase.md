@@ -87,6 +87,11 @@ builds and server functions, keeping deployment aligned with the PR workflow.
    application roles, and INSERT, UPDATE and DELETE must be denied. The SQL Editor
    normally runs as `postgres` and bypasses these public access rules.
 
+If a deployment builds successfully but displays the page error screen, open
+its runtime Logs and refresh the affected page to capture the request error.
+Check that the Supabase variables apply to that deployment's environment;
+values in local `.env.local` are not uploaded to Vercel.
+
 Run `npm run test:run`, `npm run lint`, and `npm run build` before deployment.
 The data-layer tests mock HTTP responses; they do not prove deployed RLS policies.
 Run the read-only [access audit](../supabase/audit-access.sql) in the Dashboard
